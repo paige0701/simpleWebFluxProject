@@ -1,0 +1,19 @@
+server:
+  port: 8080
+spring:
+  profiles:
+    active: dev
+  jmx:
+    enabled: false
+  # DB
+  data:
+    mongodb:
+      database: "city"
+
+logging:
+  pattern:
+    console: "[%thread] %date{yyyy-mm-dd hh:MM:ss} %logger{0}: %msg%n"
+  level:
+    org:
+      springframework:
+        web: DEBUG
