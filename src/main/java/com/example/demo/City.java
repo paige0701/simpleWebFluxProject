@@ -14,9 +14,6 @@ public class City {
     private Integer population;
 
 
-    public City() {
-    }
-
     public City(String name, String continent, Integer population) {
         this.name = name;
         this.continent = continent;
